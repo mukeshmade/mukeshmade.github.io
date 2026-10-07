@@ -1,1 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><defs><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" stroke="#ffffff" stroke-opacity=".03" fill="none"/></pattern></defs><rect width="1200" height="630" fill="#0b0f14"/><rect width="1200" height="630" fill="url(#grid)"/><circle cx="82" cy="86" r="5" fill="#c2ff79"/><text x="105" y="92" font-family="Arial,sans-serif" font-size="18" letter-spacing="2" fill="#c2ff79">SOFTWARE DEVELOPER AT ORACLE</text><text x="75" y="265" font-family="Arial,sans-serif" font-weight="600" font-size="100" letter-spacing="-5" fill="#f2f4ef">Mukesh Sai</text><text x="75" y="380" font-family="Arial,sans-serif" font-weight="600" font-size="100" letter-spacing="-5" fill="#f2f4ef">Madepalli<tspan fill="#c2ff79">.</tspan></text><text x="82" y="482" font-family="Arial,sans-serif" font-size="28" fill="#9ca8ac">Software engineering. Applied machine learning.</text><line x1="80" y1="540" x2="1120" y2="540" stroke="#263037"/><text x="82" y="580" font-family="Arial,sans-serif" font-size="18" fill="#c0c8c9">JAVA / PYTHON / SQL</text><text x="874" y="580" font-family="Arial,sans-serif" font-size="18" fill="#c2ff79">mukeshmade.github.io</text><g transform="translate(1000 300)" fill="none" stroke="#c2ff79" stroke-opacity=".3"><circle r="105"/><ellipse rx="50" ry="105"/><ellipse rx="105" ry="40"/><path d="M-100-30 70 80M-70 80 100-40"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Mukesh Sai Madepalli — Machine Learning &amp; Data Science</title>
+  <desc id="description">A dark portfolio sharing card with cyan, mint, and violet connections forming an abstract neural network.</desc>
+  <defs>
+    <radialGradient id="atmosphere"><stop stop-color="#1a4948" stop-opacity=".5"/><stop offset="1" stop-color="#07090e" stop-opacity="0"/></radialGradient>
+    <radialGradient id="core"><stop stop-color="#a7ffc8" stop-opacity=".2"/><stop offset="1" stop-color="#70efdd" stop-opacity="0"/></radialGradient>
+    <linearGradient id="connection" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#70efdd"/><stop offset=".52" stop-color="#a7ffc8"/><stop offset="1" stop-color="#b197ff"/></linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#a1d8da" opacity=".12"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#07090e"/>
+  <ellipse cx="928" cy="304" rx="360" ry="325" fill="url(#atmosphere)"/>
+  <rect x="630" y="25" width="560" height="525" fill="url(#dots)"/>
+  <g transform="translate(933 309)" fill="none">
+    <ellipse rx="208" ry="182" stroke="#70efdd" stroke-opacity=".14" transform="rotate(-26)"/>
+    <ellipse rx="211" ry="139" stroke="#b197ff" stroke-opacity=".15" transform="rotate(38)"/>
+    <ellipse rx="102" ry="184" stroke="#a7ffc8" stroke-opacity=".13" transform="rotate(24)"/>
+    <circle r="126" fill="url(#core)"/>
+    <g stroke="url(#connection)" stroke-width="1.25" stroke-opacity=".5">
+      <path d="M-164-57-92-130 14-159 108-107 171-23 146 98 50 165-54 155-150 68Z"/>
+      <path d="M-164-57-66-47 4-88 75-30 171-23M-150 68-57 48 20 24 94 63 146 98M-92-130-66-47-57 48-54 155M14-159 4-88 20 24 50 165M108-107 75-30 94 63 50 165"/>
+      <path d="M-66-47 20 24 75-30-57 48 94 63M-92-130 4-88 108-107M-164-57-57 48-150 68M171-23 94 63 146 98M-54 155 20 24"/>
+    </g>
+    <path d="M-164-57-66-47 20 24 94 63 146 98" stroke="#a7ffc8" stroke-width="2" stroke-opacity=".82"/>
+    <g fill="#70efdd"><circle cx="-164" cy="-57" r="4"/><circle cx="-150" cy="68" r="4"/><circle cx="-92" cy="-130" r="3"/><circle cx="-66" cy="-47" r="6"/><circle cx="-57" cy="48" r="4"/><circle cx="-54" cy="155" r="3"/></g>
+    <g fill="#a7ffc8"><circle cx="4" cy="-88" r="5"/><circle cx="20" cy="24" r="9"/><circle cx="50" cy="165" r="4"/><circle cx="94" cy="63" r="6"/></g>
+    <g fill="#b197ff"><circle cx="14" cy="-159" r="4"/><circle cx="108" cy="-107" r="4"/><circle cx="75" cy="-30" r="5"/><circle cx="171" cy="-23" r="4"/><circle cx="146" cy="98" r="4"/></g>
+    <circle cx="20" cy="24" r="21" stroke="#a7ffc8" stroke-opacity=".3"/>
+    <circle cx="20" cy="24" r="35" stroke="#a7ffc8" stroke-opacity=".1"/>
+  </g>
+  <g font-family="Space Grotesk, Manrope, Arial, sans-serif">
+    <circle cx="81" cy="88" r="4" fill="#a7ffc8"/>
+    <text x="100" y="94" font-size="16" letter-spacing="2.1" fill="#a7ffc8">MACHINE LEARNING &amp; DATA SCIENCE</text>
+    <text x="75" y="256" font-size="91" font-weight="500" letter-spacing="-4.5" fill="#edf1f5">Mukesh Sai</text>
+    <text x="75" y="359" font-size="91" font-weight="500" letter-spacing="-4.5" fill="#edf1f5">Madepalli<tspan fill="#70efdd">.</tspan></text>
+    <text x="80" y="431" font-family="Manrope, Arial, sans-serif" font-size="23" fill="#a0abbc">Python · Features · Models · Evaluation</text>
+    <path d="M80 530H1120" stroke="#ffffff" stroke-opacity=".12"/>
+    <text x="80" y="578" font-size="17" fill="#a0abbc">AI / MACHINE LEARNING / DATA SCIENCE</text>
+    <text x="1120" y="578" text-anchor="end" font-family="Manrope, Arial, sans-serif" font-size="18" fill="#70efdd">mukeshmade.github.io</text>
+  </g>
+</svg>
