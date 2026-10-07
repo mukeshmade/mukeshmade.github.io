@@ -36,7 +36,7 @@ Background, education, and achievement facts come from the provided resume. Proj
 
 The Ola case study compares tree-based classifiers and engineers driver-level features. Delhivery covers data preparation, feature engineering, and exploratory analysis. The interactive diagrams explain these methods; they do not run models or make predictions. No LLM project, production deployment, model-performance improvement, or business outcome is claimed. Contest ratings are historical peak ratings.
 
-The original resume PDF and phone number are excluded from the public repository.
+The original resume PDF is excluded from the public repository.
 
 ## Scene and narration
 
