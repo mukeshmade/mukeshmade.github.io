@@ -1,38 +1,47 @@
 # Mukesh Sai Madepalli — Portfolio
 
-A responsive personal portfolio built with semantic HTML, CSS, and vanilla JavaScript. Designed for job applications, highlighting software engineering and applied machine learning projects.
+A job-focused portfolio with a graphite and mint AI aesthetic, an interactive abstract neural structure, and directly sourced professional content. Built with HTML, CSS, vanilla JavaScript, and Three.js.
 
 ## Features
 
-- Interactive stylized 3D human character rendered with a locally hosted Three.js library
-- Click-to-play synthesized spoken introduction with stop controls and a visible transcript
-- Scroll reveals and a scroll progress indicator
-- Reduced-motion support and a persistent animation pause control
-- Responsive mobile navigation and keyboard-accessible project details
-- Real GitHub notebook links and professional email contact
-- No build step, package installation, analytics, or server-side services
+- Original 3D sculpture of interwoven neural ribbons, metallic surfaces, nodes, and luminous filaments
+- Structure and signal modes, pointer parallax, and restrained animation
+- Optional click-to-play synthesized introduction with stop/Escape controls and a transcript
+- Animation pause and reduced-motion support
+- Rendering suspended when hidden or offscreen
+- Responsive navigation, keyboard-accessible case studies, and copy-email contact
+- Static neural-structure poster when JavaScript or WebGL is unavailable
+- Local rendering library; no build step, model downloads, analytics, or backend
 
 ## Run locally
 
-From this directory run `python -m http.server 4173`, then open `http://localhost:4173`.
-
-## Publish with GitHub Pages
-
-Push these files to the repository's `main` branch. In **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save. The `.nojekyll` file serves the static files directly.
+Run `python -m http.server 4173` in this directory, then open `http://localhost:4173`.
 
 ## Edit
 
-- `index.html`: biography, projects, experience, links, and milestones
-- `styles.css`: colors, typography, layout, and responsive styles
-- `script.js`: navigation, motion preferences, and clipboard
-- `avatar.js`: procedural 3D character, animation, and synthesized introduction
+- `index.html`: projects, experience, biography, technical skills, and links
+- `styles.css`: typography, layout, color, and responsive behavior
+- `script.js`: navigation, motion preferences, scroll reveals, and clipboard
+- `neural.js`: procedural neural sculpture and rendering lifecycle
+- `speech.js`: browser speech synthesis and playback lifecycle
+- `assets/neural-poster.png`: static sculpture fallback
 
-The source resume is excluded from this public repository. The portfolio summarizes its professional facts without publishing the original PDF or phone number.
+## Sources and accuracy
 
-All career and project claims are based on the provided resume. Project visuals are illustrations, not measured model results. Contest ratings are historical peak ratings.
+Career, education, and achievement facts come from the provided resume. Project descriptions and dataset counts were cross-checked against the public [Ola notebook](https://github.com/mukeshmade/Business-Cases/blob/4f700077cf08b8d6bb42a8d927f0807cb90cb995/Ola.ipynb) and [Delhivery notebook](https://github.com/mukeshmade/Business-Cases/blob/4f700077cf08b8d6bb42a8d927f0807cb90cb995/delhivery.ipynb).
 
-Google Fonts supplies DM Sans and Instrument Serif; local system fonts are used if unavailable.
+Case-study diagrams illustrate workflows. Model performance and business impact are not claimed. The Delhivery project is exploratory analysis and feature engineering. Contest ratings are historical peak ratings.
 
-The spoken introduction uses the visitor's browser speech synthesis. Voice availability and quality depend on their browser and device. Audio plays only after a click. The character is a stylized illustration, and the voice is synthesized, not a recording or clone of Mukesh. A static SVG character and text transcript are available as fallbacks.
+The original resume PDF and phone number are excluded from the public repository. No graduate-study plans are included.
 
-Three.js 0.180.0 is bundled in `assets/vendor/` under its included MIT license.
+## Scene and narration
+
+The abstract 3D structure is a procedural illustration, not a trained AI model or a scientific diagram of a particular network. It has no human avatar or likeness.
+
+Narration uses browser speech synthesis after a visitor clicks Listen. Voice availability and quality depend on the visitor's device. It is not a recording or clone of Mukesh's voice.
+
+Three.js 0.180.0 is bundled under the included MIT license. Google Fonts supplies Manrope and IBM Plex Mono, with local system fallbacks.
+
+## GitHub Pages
+
+Publishes from `main:/` at [mukeshmade.github.io](https://mukeshmade.github.io/). The `.nojekyll` file serves static assets directly.
